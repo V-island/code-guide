@@ -1,0 +1,24 @@
+{
+  "name": "code-guide",
+  "version": "1.0.0",
+  "description": "GogoTranx开发规范文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-island/code-guide.git"
+  },
+  "author": "AllenLi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-island/code-guide/issues"
+  },
+  "homepage": "https://github.com/V-island/code-guide#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}

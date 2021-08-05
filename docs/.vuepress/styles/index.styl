@@ -1,0 +1,94 @@
+//文档logo图片
+img.logo {
+  height: 21px !important;
+}
+
+.navbar {
+  height: auto;
+  line-height: normal !important;
+  padding: 2rem 3.1rem !important;
+}
+
+.home-link {
+  pointer-events: none;
+
+  .site-name {
+    display: none;
+  }
+}
+.links {
+  top: 1.6rem !important;
+}
+
+// =====================================================
+// 右侧文章标题导航栏
+.sidebar {
+  width: 25rem;
+  top: 5.3rem !important;
+}
+
+.sidebar > .sidebar-links {
+  padding: 2.4rem 3.1rem !important;
+}
+
+.sidebar-links > li {
+  margin: 10px 0 !important;
+}
+
+a.sidebar-link {
+  position: relative;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #737B80 !important;
+  line-height: 21px !important;
+  word-break break-all !important;
+  padding-left: 1.25rem !important;
+}
+
+.sidebar-heading {
+  position: relative;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+  line-height: 21px !important;
+  word-break break-all !important;
+}
+
+a.sidebar-link.active {
+  font-weight: bold !important;
+  border: none;
+}
+a.sidebar-link.active:before {
+  position: absolute;
+  content: '';
+  background: linear-gradient(224deg, #70A8FF 0%, #1148B5 100%);
+  height: 60%;
+  width: 4px;
+  left: 0;
+  top: 20%;
+  border-radius: 8px;
+}
+
+//三级菜单标题
+.sidebar-heading {
+  opacity: 1 !important;
+  font-size: 15px
+}
+// =====================================================
+
+// =====================================================
+//文本内容区域
+.theme-default-content {
+  padding-top: 3.7rem !important;
+}
+// =====================================================
+
+@media (max-width: 719px) {
+  .navbar {
+    padding-left: 4rem !important;
+  }
+  //移动端菜单按钮
+  .sidebar-button {
+    top: 1.4rem !important;
+  }
+}
