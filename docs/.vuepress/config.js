@@ -1,6 +1,9 @@
 module.exports = {
   base: '/', //基础路径
-  title: 'GOGOTRANX',
+  title: 'CodeGuide',
+  head: [
+    ['link', { rel: 'icon', href: `/favicon.png` }],
+  ],
   themeConfig: {
     logo: '/logo.png',
     nav: [
